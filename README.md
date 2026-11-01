@@ -59,6 +59,14 @@ Use `/mcp` to inspect the connection. These configurations are supplied for setu
 
 Orders reset to their seeded values on restart. Approval files persist until consumed or removed, so remove outstanding approvals before restarting a session. Approval consumption and in-memory mutation are not a durable transaction. Production use needs durable order state, authenticated operator approval, audit records and crash recovery. GitHub Actions runs the Release tests on every push.
 
+## Work with the author
+
+Custom MCP servers for your own API (C# or TypeScript, stdio or Streamable HTTP, human approval for
+actions that write or spend): https://www.upwork.com/services/product/2113736906027325062
+
+A fixed-price review of an existing MCP server in 48 hours, with optional fixes and tests:
+https://www.upwork.com/services/product/2116921806127265220
+
 ## License
 
 MIT
